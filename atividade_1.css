@@ -1,50 +1,64 @@
 body{
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #797777;
-
+    background: #fffefe;
+    font-family: Arial;
+    margin: 10px;
 }
-
 header{
-    background: #db0909;
+    background-color:#0D47A1;
     color:white;
     text-align: center;
-    padding: 30px;
-    font-size: 100px;
-
+    padding: 15px;
 }
 nav{
-    background: #a4aaad;
+    background: #5a95ec;
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    font-size: 40px;
 } 
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
 main{
     display:flex;
     margin-top: 10px;
-    gap: 20px;
 }
-aside{
-    flex: 1px;
-    background: #474646;
-    color: white;
-    text-align: center;
-    font-size: 30px;
+#conteudo{
+    width: 70%;
+    margin-right: 10px;
 }
-article{
-    background: #474646;
-    color: white;
+.caixa{
     padding: 20px;
-    text-align: left;
-    font-size: 30px;
 }
-
+.imagem{
+    background: #3b7ed6;
+    color: white;
+    height: 160px;
+    margin-top: 10px;
+}
+.noticias{
+    background: #297ddd;
+    color: white;
+    height: 220px;
+    margin-top: 10px;
+}
+.noticias h2{
+    text-align: center;
+    color: white;
+}
+#destaque{
+    width: 30%;
+    color: white;
+    background: #da4dc2;
+    text-align: center;
+    padding-top: 180px;
+}
 footer{
     background: #000000;
-    color:white;
+    color: white;
     text-align: center;
-    padding: 40px;
-    margin-top: 20px;
+    padding: 15px;
+    margin-top: 10px;
 }
