@@ -1,1 +1,78 @@
-
+body{
+    background: #F2F2F2;
+    font-family: Arial;
+    margin: 10px;
+}
+header{
+    background-color:#0D47A1;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+nav{
+    background: #42a5f5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+#Banner{
+    background: #f48fb1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+#produtos{
+    display:flex;
+    margin-top: 10px;
+}
+.produto{
+    width: 33%;
+    background: #42a5f5;
+    text-align: center;
+    padding: 15px;
+    margin-right: 10px;
+}
+.imagem{
+    background: #cccccc;
+    padding: 30px;
+}
+.preco{
+    color: green;
+}
+button{
+    background: #0D47A1;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+#informacoes{
+    display:flex;
+    margin-top: 10px;
+}
+#promocoes{
+    width: 50%;
+    background: #ff8a3d;
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+}
+#frete{
+    width: 50%;
+    background: #ba68c8;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
