@@ -1,1 +1,205 @@
+body{
 
+    background:#F2F2F2;
+
+    font-family:Arial;
+
+    margin:10px;
+
+}
+header{
+
+    background:#0D47A1;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+nav{
+
+    background:#42A5F5;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:10px;
+
+}
+
+nav a{
+
+    color:white;
+
+    margin:20px;
+
+}
+#banner{
+
+    background:#BDE9DF;
+
+    color:black;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:10px;
+
+}
+main{
+
+    display:flex;
+
+    margin-top:10px;
+
+}
+#servicos{
+
+    width:70%;
+
+    background:#FDEB8A;
+
+    padding:20px;
+
+    padding-bottom:35px;
+
+}
+#servicos h2{
+
+    text-align:center;
+
+}
+.cards{
+
+    display: flex;
+}
+.servico{
+
+    background:#FFF8DC;
+
+    width: 30%;
+
+    text-align:center;
+
+    padding:18px;
+
+    margin-right:18px;
+
+    display:inline-block;
+
+}
+.imagem{
+
+    background:#DDDDDD;
+
+    height:80px;
+
+    padding-top:60px;
+
+}
+button{
+
+    background:#1565C0;
+
+    color:white;
+
+    padding:10px;
+
+    width:150px;
+
+}
+#sobre{
+
+    width:30%;
+
+    background:#CE93D8;
+
+    text-align:center;
+
+    padding:15px;
+
+}
+#inferior{
+
+    display:flex;
+
+    margin-top:10px;
+
+}
+#depoimentos{
+
+    width:50%;
+
+    background:#F7A68A;
+
+    height: 160px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+#diferenciais{
+
+    width:50%;
+
+    background:#CDEB9A;
+
+    text-align: center;
+
+    height: 160px;
+
+}
+#diferenciais h2{
+
+    text-align:center;
+
+}
+.icones{
+
+    display: flex;
+
+    margin-top: 30px;
+
+}
+.diferencial{
+
+    width: 25%;
+
+    text-align:center;
+
+}
+.circulo{
+
+    background:#BDBDBD;
+
+    width: 40px;
+
+    height:40px;
+
+    border-radius: 50%;
+
+    margin:auto;
+
+}
+footer{
+
+    background:#424242;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:10px;
+
+}
