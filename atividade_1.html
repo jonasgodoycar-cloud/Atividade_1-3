@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Estrutura Html semantico</title>
-    <link rel="stylesheet" href="atividade_1.css">
+    <link rel="stylesheet" href="a1.css">
 </head>
 <body>
     <header>
-        TECH NEWS
+        <h1>TECH NEWS</h1>
+        <p>Tudo sobre tecnologia</p>
     </header>
     <nav>
-          <a href="#">| Início |</a>
-          <a href="#">| Notícias |</a>
-          <a href="#">| Cursos |</a>
-          <a href="#">| Eventos |</a>
-          <a href="#">| Contato |</a>
+          <a href="#">Início</a>
+          |
+          <a href="#">Notícias</a>
+          |
+          <a href="#">Cursos</a>
+          |
+          <a href="#">Eventos</a>
+          |
+          <a href="#">Contato</a>
     </nav>
     <main>
-        <section>
-        <article0>
-            <img src="ref.jpg" alt="Referência" width="3000" height="1600">
-        </article>
-         <article>
-         <center>
-            <h1>Últimas Notícias</h1>
-        </center>
+    <div id="conteudo">
+        <article class="caixa imagem">
+            Imagem
+        </article> 
+        <article class="caixa noticias">
+            <h2>Ultimas Noticias</h2>
             <ul>
-                <li>HTMLcompleta 30 anos</li>
-                <li>Notícia 2</li>
-                <li>Notícia 3</li>
-                <li>Notícia 4</li>
+                <li>HTML5 completa 30 anos</li>
+                <li>Css facilita a criação de layouts modernos</li>
+                <li>Javascript continua sendo uma das linguagens mais utilizadas</li>
             </ul>
         </article>
-        </section>
-        <aside> 
-           <h1>Destaques</h1>
-        </aside>
+    </div>
+    <aside id="destaque">
+        <h2>Destaques</h2>
+    </aside>
     </main>
     <footer>
-        <p>&copy; 2026 Jonas Godoy Carvalho</p>
+        <p>&copy; 2026 - Tech New</p>
     </footer>
 </body>
 </html>
